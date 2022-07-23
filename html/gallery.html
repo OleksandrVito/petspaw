@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>gallery</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../style.css">
+    <link
+  rel="stylesheet"
+  href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+/>
+</head>
+<body>
+    <div class="logo"><img src="../logo.svg" alt=""></div>
+        <div class="left-block">
+            <h1>Hi intern!</h1>
+            <p class='welcome-text'>Welcome to MI 2022 Front-end test</p>
+
+            <p class='start-text'>Lets start using The Cat API</p>
+
+            <div class="big-card-block">
+                <div class="card-block first-card-block">
+                    <button>
+                        <a href="./voting.html">VOTING</a>
+                        </button>
+                    <div class="card first-card"></div>                
+                </div>
+                    
+                <div class="card-block second-card-block">
+                    <button>
+                        <a href="./breeds.html">BREEDS</a>
+                    </button>
+                    <div class="card second-card"></div>
+                </div>
+                <div class="card-block third-card-block">
+                    <button>
+                        <a href="./gallery.html">GALLERY</a>
+                        </button>
+                    <div class="card third-card"></div>
+                </div>
+               </div>
+
+        </div>
+    <div class="search-block">
+        <input type="search" class='search' placeholder='Search for breeds by name'> 
+        <button class='search-btn'></button>
+        <button class='likes-btn'>
+            <a href="./likes.html"></a>
+    </button>
+    <button class='favourites-btn'>
+            <a href="./favourites.html"></a>
+    </button>
+    <button class='dislikes-btn'>
+            <a href="./dislikes.html"></a>
+    </button>
+        <div class="big-photo-block">
+            <button class="back-btn">
+            </button>
+            <div class="breeds-btn">GALLERY</div>
+            <button class='upload-btn'>
+                <a href="#popup">UPLOAD</a></button>
+           
+            <div class="photo-block">
+            </div>
+        </div>
+    </div>
+    <div id="popup" class="popup-container">
+        <div  class="popup">
+            <div class="close-button">
+                <a href="#"></a>
+            </div>
+            <h2>Upload a .jpg or .png Cat Image</h2>
+            <p class='text-over-photo'>Any uploads must comply with the <a href='' class='non-active'>upload guidelines</a> or face deletion.</p>
+            <div class="image-container">
+                <p class='text'><span>Drag here</span> your file or <a class='open-button'>Click here</a>
+                    <input type="file" class='file'>to upload</p>
+                   
+            </div>
+            <div class="photo-preview"></div>
+            <p class='text-under-photo'>No file selected</p>
+            <div class="upload-block">Thanks for the Upload - Cat found!</div>
+        </div>
+    </div>
+    <script src="../js/gallery.js"></script>
+   
+</body>
+</html>
