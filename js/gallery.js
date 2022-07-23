@@ -2,7 +2,7 @@ const backBtn = document.querySelector('.back-btn');
 backBtn.addEventListener('click', (()=> history.back()));
 
 const inputOpen = document.querySelector('.file');
-inputOpen.setAttribute('accept', '.png,.jpg');
+inputOpen.setAttribute('accept', '.png,.jpg,.jpeg');
 
 const openBtn = document.querySelector('.open-button');
 openBtn.addEventListener('click', (()=>inputOpen.click()));
