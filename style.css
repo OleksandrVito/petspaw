@@ -148,6 +148,7 @@ h1 {
 button {
   margin-top: 10px;
   padding-top: 10px;
+  padding-left: 0;
   width: 138px;
   height: 36px;
   background: #ffffff;
